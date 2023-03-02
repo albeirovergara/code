@@ -11,29 +11,33 @@
 
     <form action="">
 
-        <ul>
-            <li>    
+        <fieldset>
+            <legend>Datos personales</legend>
+                
                 <label >Cedula:</label>
-                <input type="number" autofocus placeholder="Numero de cedula" ><br>
+                <input type="number" autofocus placeholder="Numero de cedula" required min="1000" max="10000" ><br>
                 <br>
-            </li>
-            <li>
+            
+            
                 Nombre:
-                <input type="text"> <br>
+                <input type="text" required readonly value="Albeiro"> <br>
                 <br>
-            </li>
-            <li>
+            
+            
                 Contraseña:
-                <input type="password">
+                <input type="password" size="50">
         
                 <br><br>
-            </li>
-            <li>
+            
+            
                 Fecha de nacimiento: 
                 <input type="date">
         
                 <br><br>
-            </li>
+            
+        </fieldset>
+        <ul>
+
             <li>
                 Fecha Consulta:
                 <input type="datetime-local">
@@ -57,9 +61,28 @@
             <li>
                 Correo Electronico:  
                 <input type="email"><br><br>
+                
 
             </li>
+            <li>
+                Profesion: 
+                <Select>
+                    <option value="SL">Selecciona...</option>
+                    <option value="IS">Ingenieria de Sistema</option>
+                    <option value="AQ">Arquitectura</option>
+                    <option value="II">Ingenieria Industrial</option>
+                    <option value="DG">Diseño Grafico</option>
+                </Select>
+                
+            </li>
+            <br>
 
+            <li>
+                Comentame algo de ti:
+                <br>
+                <textarea cols="30" rows="10"></textarea>
+
+            </li>
             <li>
                 
                 <input type="file"> <br><br>
