@@ -1,0 +1,24 @@
+/* body{
+    background-color: deepskyblue;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+
+} */
+.colorUno {
+    background-color: #ad1124;
+}
+.colorDos{
+    background-color: #f6232f;
+}
+.colorTres{
+    background-color: #412688;
+}
+
+.encabezado{
+    background-color: #ad1124;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
