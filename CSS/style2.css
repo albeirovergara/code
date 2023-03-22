@@ -1,0 +1,24 @@
+.flexContenedor{
+    display: flex;
+    background-color: orange;
+    
+    
+}
+.flexContenedorJustificadoDerecha{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.flexContenedor > div{
+
+    width: 50%;
+    border-style: solid;
+
+
+}
+.imagen{
+
+    width: 100px;
+    height: 100px;
+
+}
